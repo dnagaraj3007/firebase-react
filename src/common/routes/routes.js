@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import PrivateRoute from './PrivateRoute';
+import PublicRoute from './LoginAndSignUpRoutes'
 import LinearProgress from "@material-ui/core/LinearProgress";
 
 import SignUpContainer from "../../pages/SignUp/SignUpContainer";
@@ -24,8 +25,8 @@ const AppRouter = () => {
         <div>
           <Layout />
           <Switch>
-            <Route exact path="/sign-up" component={SignUpContainer} />
-            <Route exact path="/sign-in" component={SignInContainer} />
+            <PublicRoute exact path="/sign-up">  <SignUpContainer/></PublicRoute>
+            <PublicRoute exact path="/sign-in"><SignInContainer/> </PublicRoute>
             <PrivateRoute exact path="/projects" > <SearchProjects/> </PrivateRoute>
           </Switch>
         </div>
