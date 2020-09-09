@@ -31,9 +31,8 @@ const styles = theme => ({
 class ProjectSearch extends Component{
 
     componentDidMount() {
-        console.log("componentdidMount", this.props)
+
         //this.props.getAllProjects();
-        console.log("componentdidMount1")
 
     }
     render(){
@@ -67,14 +66,13 @@ class ProjectSearch extends Component{
 }
 
 const mapDispatchToProps = (dispatch) => {
-    console.log("pr",dispatch);
+
     return {
         getAllProjects: () => dispatch(getAllProjects())
     };
 };
 
 const mapStateToProps = state => {
-    console.log("state1");
     return {
         projects: state.projects.payload
     }

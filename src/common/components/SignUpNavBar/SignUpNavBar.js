@@ -11,6 +11,9 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flex: 1,
     },
+    toolbar: {
+        justifyContent: "flex-end"
+    },
     menuButton: {
         marginRight: theme.spacing(2),
     },
@@ -26,7 +29,7 @@ const SignUpNavBar = () => {
     return (
         <div>
             <AppBar position="static" color="primary">
-                <Toolbar>
+                <Toolbar className = {classes.toolbar}>
                     <Button color="inherit" size="large" edge="end" component={RouterLink} to="/sign-up">
                         Register
                     </Button>

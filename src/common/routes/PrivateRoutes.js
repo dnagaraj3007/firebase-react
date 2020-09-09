@@ -5,8 +5,7 @@ import {
 } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 import { isLoaded, isEmpty } from 'react-redux-firebase'
-const PrivateRoute = ({ children, ...rest })=> {
-    console.log("children", rest)
+const PrivateRoutes = ({ children, ...rest })=> {
     const auth = useSelector(state => state.firebase.auth)
     return (
 
@@ -25,4 +24,4 @@ const PrivateRoute = ({ children, ...rest })=> {
     );
 }
 
-export default PrivateRoute;
+export default PrivateRoutes;

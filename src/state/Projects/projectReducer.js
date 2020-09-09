@@ -5,8 +5,6 @@ const initialState = {
 }
 
 const projectReducers = (state =initialState, action) =>{
-    console.log("reducers1", action.type)
-
     switch(action.type){
 
         case projectConstants.GET_ALL_PROJECTS: {

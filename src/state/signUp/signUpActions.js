@@ -1,18 +1,17 @@
 import signUpConstants from "../../common/constants/actions/signUpConstants"
 
-export const signUp = credentials => (dispatch, getState, getFirebase) => {
+export const signUp = newUser => (dispatch, getState, getFirebase) => {
     const firebase = getFirebase();
-    firebase.auth().signInWithEmailAndPassword(
-        credentials.email,
-        credentials.password
+    firebase.auth().createUserWithEmailAndPassword(
+        newUser.email,
+        newUser.password
     ).then(() =>{
         dispatch({
-            type: authConstants.LOGIN_SUCCESS
+            type: signUpConstants.REGISTER_SUCCESS
         })
     }).catch((err)=>{
-        console.log(err.message)
         dispatch({
-            type: authConstants.LOGIN_FAILURE,
+            type: signUpConstants.REGISTER_FAILURE,
             err: err.message
         })
     })

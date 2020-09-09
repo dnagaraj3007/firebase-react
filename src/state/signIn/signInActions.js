@@ -10,19 +10,16 @@ export const signIn = credentials => (dispatch, getState, getFirebase) => {
         type: authConstants.LOGIN_SUCCESS
      })
   }).catch((err)=>{
-      console.log(err.message)
          dispatch({
             type: authConstants.LOGIN_FAILURE,
             err: err.message
          })
      })
-    console.log(firebase);
 };
 
 export const signOut = () =>(dispatch, getState, getFirebase) =>{
     const firebase = getFirebase();
     firebase.auth().signOut().then(()=>{
-        console.log("Signout successful");
         dispatch({
             type:authConstants.LOGOUT_SUCCESS
         })
@@ -32,6 +29,5 @@ export const signOut = () =>(dispatch, getState, getFirebase) =>{
             err: err.message
         })
     })
-    console.log(firebase);
 }
 

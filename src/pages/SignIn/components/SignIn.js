@@ -96,7 +96,6 @@ class SignIn extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    console.log(this.props);
     let cred = { email: this.state.email, password: this.state.password };
     this.props.signIn(cred);
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import PrivateRoute from './PrivateRoute';
-import PublicRoute from './LoginAndSignUpRoutes'
+import PrivateRoute from './PrivateRoutes';
+import PublicRoute from './PublicRoutes'
 import LinearProgress from "@material-ui/core/LinearProgress";
 
 import SignUpContainer from "../../pages/SignUp/SignUpContainer";

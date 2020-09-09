@@ -5,6 +5,9 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
+import {connect} from 'react-redux';
+
+import {signUp} from '../../../state/signUp/signUpActions'
 
 import Utils from "../../../Helper/utils";
 
@@ -38,6 +41,7 @@ class SignUp extends Component {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleBlur = this.handleBlur.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
 
   }
 
@@ -64,11 +68,9 @@ class SignUp extends Component {
     event.preventDefault();
     const {name, value} = event.target;
     let errors = this.validateElement(name, value)
-    console.log(this.state)
     this.setState({
       errors
     })
-    console.log(this.state);
   }
 
   handleChange(event){
@@ -79,16 +81,27 @@ class SignUp extends Component {
     })
   }
 
+  handleSubmit(event){
+    event.preventDefault();
+    const user = {
+      email: this.state.email,
+      password: this.state.password
+    }
+    this.props.signUp(user);
+
+  }
+
   render() {
     const { classes } = this.props;
-    const { errors, loading } = this.state;
+    const { errors, loading} = this.state;
+    const {signUpError} = this.props;
     return (
       <div>
         <Grid container>
           <Grid item xs={1} sm={7}/>
           <Grid item xs={10} sm={4}>
             <Paper elevation={3} className={classes.paper}>
-              <form>
+              <form onSubmit={this.handleSubmit}>
                 <Typography variant="h4" gutterBottom>
                   Welcome
                 </Typography>
@@ -145,6 +158,9 @@ class SignUp extends Component {
                 >
                   Sign up!
                 </Button>
+                {signUpError? (<Typography variant="caption" display="block" gutterBottom color = "error">
+                      {signUpError}
+                    </Typography>): null}
               </form>
             </Paper>
           </Grid>
@@ -155,6 +171,21 @@ class SignUp extends Component {
   }
 }
 
+const mapDispatchToProps = (dispatch) =>{
+  return {
+    signUp : (user) => {
+      dispatch(signUp(user))
+    }
+  }
+}
+
+const mapStateToProps = (state) =>{
+  return{
+    signUpError : state.signUp.signUpError
+  }
+}
+
+
 SignUp = withStyles(styles)(SignUp);
 
-export default SignUp;
+export default connect(mapStateToProps, mapDispatchToProps) (SignUp);

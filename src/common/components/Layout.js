@@ -7,7 +7,6 @@ import {connect} from "react-redux";
 const Layout =(props) =>{
     const {auth} = props;
     const links = auth.uid? <SignInNavBar/>: <SignUpNavBar/>
-    console.log(auth)
     return(
         <div>
             {links}
@@ -16,7 +15,6 @@ const Layout =(props) =>{
 }
 
 const mapStateToProps = (state)=>{
-    console.log(state);
     return {
         auth: state.firebase.auth
     }

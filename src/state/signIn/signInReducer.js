@@ -4,7 +4,6 @@ const initialState = {
     authError: null
 }
 const signInReducer = (state =initialState, action) =>{
-
     switch(action.type){
         case authConstants.LOGIN_FAILURE: {
             return {
@@ -18,11 +17,9 @@ const signInReducer = (state =initialState, action) =>{
             }
         }
         case authConstants.LOGOUT_SUCCESS:{
-            console.log("logout success");
             return state
         }
         case authConstants.LOGOUT_FAILURE:{
-            console.log("logout failure")
             return state
         }
         default:

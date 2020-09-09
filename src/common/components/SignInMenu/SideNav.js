@@ -26,7 +26,6 @@ export default function SwipeableTemporaryDrawer() {
     const [state, setState] = React.useState({
         left: false
     });
-    console.log(state)
 
     const toggleDrawer = (open) => (event) => {
 

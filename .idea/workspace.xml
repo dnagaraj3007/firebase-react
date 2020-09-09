@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9a9af86-cba6-4136-9b23-0619cddbea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/routes/LoginAndSignUpRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/routes/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/routes/PrivateRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/SignInMenu/SideNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/SignInMenu/SideNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/SignUpNavBar/SignUpNavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/SignUpNavBar/SignUpNavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/routes/LoginAndSignUpRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/routes/PublicRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/routes/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/routes/PrivateRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Projects/components/SearchProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects/components/SearchProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignIn/components/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignIn/components/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/Projects/projectActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/Projects/projectActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/Projects/projectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/Projects/projectReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/signIn/signInActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/signIn/signInActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/signIn/signInReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/signIn/signInReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/signUp/signUpActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/signUp/signUpActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/signUp/signUpReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/signUp/signUpReducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,10 +31,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/routes/PrivateRoute.js">
+        <entry file="file://$PROJECT_DIR$/src/common/routes/PrivateRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="26" lean-forward="true" selection-end-line="28" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -31,64 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/routes/LoginAndSignUpRoutes.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/SignIn/components/SignIn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common/routes/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/constants/apiConstants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/Projects/projectActions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#77#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="93" column="29" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="93" selection-end-column="29" />
+            <state relative-caret-position="233">
+              <caret line="171" column="34" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -97,13 +55,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/components/Layout.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="131">
+              <caret line="154" column="30" lean-forward="true" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="30" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/middleware.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/rootReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/signIn/signInReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/signUp/signUpActions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/state/signIn/signInActions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/state/signUp/signUpReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -118,6 +126,7 @@
       <find>classes</find>
       <find>/api/v1</find>
       <find>api/v1</find>
+      <find>console.log</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\nadanda\react-firebase\src\components\SignUp</dir>
@@ -130,22 +139,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/manifest.json" />
-        <option value="$PROJECT_DIR$/src/components/SignUp/SignUp.css" />
-        <option value="$PROJECT_DIR$/src/components/SignUp/SignUp.js" />
-        <option value="$PROJECT_DIR$/src/config/theme.js" />
         <option value="$PROJECT_DIR$/src/pages/SignUp/SignUpContainer.js" />
         <option value="$PROJECT_DIR$/src/pages/SignIn/SignInContainer.js" />
         <option value="$PROJECT_DIR$/src/common/alertConstants.js" />
         <option value="$PROJECT_DIR$/src/common/signUpConstants.js" />
         <option value="$PROJECT_DIR$/src/common/constants.js" />
-        <option value="$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js" />
         <option value="$PROJECT_DIR$/src/Helper/utils.js" />
         <option value="$PROJECT_DIR$/src/common/constants/errors.js" />
-        <option value="$PROJECT_DIR$/src/state/signUp/signUpReducer.js" />
-        <option value="$PROJECT_DIR$/src/state/signUp/signUpActions.js" />
         <option value="$PROJECT_DIR$/src/common/constants/actions/authConstants.js" />
-        <option value="$PROJECT_DIR$/src/state/signIn/signInReducer.js" />
         <option value="$PROJECT_DIR$/src/common/components/SignInMenu/SignInMenu.js" />
         <option value="$PROJECT_DIR$/src/common/components/SignInMenu/components/Menu.js" />
         <option value="$PROJECT_DIR$/src/common/components/SignInMenu/SignedLinksContainer.js" />
@@ -156,31 +157,39 @@
         <option value="$PROJECT_DIR$/src/common/components/SignInMenu/components/navBar.js" />
         <option value="$PROJECT_DIR$/src/common/components/SignUpNavBar/components/SignUpNavBar.js" />
         <option value="$PROJECT_DIR$/src/common/components/SignInMenu/components/SignInNavBar.js" />
-        <option value="$PROJECT_DIR$/src/common/components/Layout.js" />
         <option value="$PROJECT_DIR$/src/common/components/SignInMenu/SignInNavBar.js" />
         <option value="$PROJECT_DIR$/src/pages/LandingPage/LandingPageContainer.js" />
         <option value="$PROJECT_DIR$/src/Helper/authIsLoaded.js" />
         <option value="$PROJECT_DIR$/src/pages/Projects/ProjectsContainer.js" />
-        <option value="$PROJECT_DIR$/src/pages/SignIn/components/SignIn.js" />
         <option value="$PROJECT_DIR$/src/config/firebaseConfig.js" />
         <option value="$PROJECT_DIR$/src/common/constants/actions/projectConstants.js" />
-        <option value="$PROJECT_DIR$/src/state/signIn/signInActions.js" />
         <option value="$PROJECT_DIR$/src/config/baseURL.js" />
         <option value="$PROJECT_DIR$/src/common/constants/api/project.js" />
         <option value="$PROJECT_DIR$/src/common/constants/apiConstants.js" />
         <option value="$PROJECT_DIR$/src/common/constants/constants.js" />
         <option value="$PROJECT_DIR$/src/state/rootReducer.js" />
-        <option value="$PROJECT_DIR$/src/state/Projects/projectReducer.js" />
         <option value="$PROJECT_DIR$/src/config/rrfConfig.js" />
         <option value="$PROJECT_DIR$/src/state/store.js" />
         <option value="$PROJECT_DIR$/src/config/axiosConfig.js" />
-        <option value="$PROJECT_DIR$/src/state/Projects/projectActions.js" />
-        <option value="$PROJECT_DIR$/src/pages/Projects/components/SearchProjects.js" />
         <option value="$PROJECT_DIR$/src/Helper/PrivateRoute.js" />
         <option value="$PROJECT_DIR$/src/common/PrivateRoute.js" />
         <option value="$PROJECT_DIR$/src/common/routes/PrivateRoute.js" />
         <option value="$PROJECT_DIR$/src/common/routes/LoginAndSignUpRoutes.js" />
         <option value="$PROJECT_DIR$/src/common/routes/routes.js" />
+        <option value="$PROJECT_DIR$/src/common/components/SignUpNavBar/SignUpNavBar.js" />
+        <option value="$PROJECT_DIR$/src/state/signUp/signUpReducer.js" />
+        <option value="$PROJECT_DIR$/src/state/Projects/projectReducer.js" />
+        <option value="$PROJECT_DIR$/src/state/Projects/projectActions.js" />
+        <option value="$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js" />
+        <option value="$PROJECT_DIR$/src/common/components/SignInMenu/SideNav.js" />
+        <option value="$PROJECT_DIR$/src/common/components/Layout.js" />
+        <option value="$PROJECT_DIR$/src/pages/Projects/components/SearchProjects.js" />
+        <option value="$PROJECT_DIR$/src/common/routes/PrivateRoutes.js" />
+        <option value="$PROJECT_DIR$/src/common/routes/PublicRoutes.js" />
+        <option value="$PROJECT_DIR$/src/state/signIn/signInActions.js" />
+        <option value="$PROJECT_DIR$/src/state/signUp/signUpActions.js" />
+        <option value="$PROJECT_DIR$/src/pages/SignIn/components/SignIn.js" />
+        <option value="$PROJECT_DIR$/src/state/signIn/signInReducer.js" />
       </list>
     </option>
   </component>
@@ -202,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,12 +239,98 @@
               <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="SignUpNavBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="SignUp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="SignUp" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="signIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-firebase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-firebase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="signUp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,15 +398,16 @@
       <workItem from="1599138094378" duration="402000" />
       <workItem from="1599194455332" duration="35000" />
       <workItem from="1599365142793" duration="17032000" />
-      <workItem from="1599492114187" duration="7663000" />
+      <workItem from="1599492114187" duration="12904000" />
+      <workItem from="1599614197365" duration="1945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129296000" />
+    <option name="totallyTimeSpent" value="136482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="693" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="693" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2472178" />
@@ -329,7 +424,7 @@
       <window_info anchor="bottom" id="SuiteCloud IDE" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49920508" visible="true" weight="0.49019608" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49920508" visible="true" weight="0.22638147" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007949" side_tool="true" weight="0.32976827" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -358,9 +453,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SignUp/SignUp.css" />
-    <entry file="file://$PROJECT_DIR$/src/state/middleware.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/constants/actions.js" />
     <entry file="file://$PROJECT_DIR$/src/config/theme.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -393,20 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/signUp/signUpReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/signUp/signUpActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/components/SignInMenu/SignedLinksContainer.js" />
     <entry file="file://$PROJECT_DIR$/src/common/components/SignInMenu/components/ProfileMenu.js" />
     <entry file="file://$PROJECT_DIR$/src/common/constants/actions/authConstants.js">
@@ -420,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1166">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/SignUpNavBar/SignUpNavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -496,35 +567,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/signIn/signInActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/constants/api/project.js" />
-    <entry file="file://$PROJECT_DIR$/src/state/signIn/signInReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/state/Projects/projectReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/rootReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,43 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="93" column="29" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="93" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/components/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/SignIn/components/SignIn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Projects/components/SearchProjects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -649,33 +659,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/routes/PrivateRoute.js">
+    <entry file="file://$PROJECT_DIR$/src/common/components/SignUpNavBar/SignUpNavBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="26" lean-forward="true" selection-end-line="28" />
+        <state relative-caret-position="697">
+          <caret line="41" column="6" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/axiosConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/routes/PrivateRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/routes/LoginAndSignUpRoutes.js">
+    <entry file="file://$PROJECT_DIR$/src/common/routes/PublicRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/routes/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        <state relative-caret-position="527">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/signUp/signUpReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/SignUp/components/SignUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="154" column="30" lean-forward="true" selection-start-line="154" selection-start-column="30" selection-end-line="154" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/middleware.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/rootReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/SignIn/components/SignIn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="171" column="34" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/signIn/signInReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/signUp/signUpActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="71" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/signIn/signInActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
