@@ -32,7 +32,7 @@ class ProjectSearch extends Component{
 
     componentDidMount() {
 
-        //this.props.getAllProjects();
+        this.props.getAllProjects();
 
     }
     render(){
