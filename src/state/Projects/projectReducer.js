@@ -9,6 +9,7 @@ const projectReducers = (state =initialState, action) =>{
     switch(action.type){
 
         case projectConstants.GET_ALL_PROJECTS: {
+            console.log(action);
             return {
                 ...state, payload: action.payload
             }
